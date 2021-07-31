@@ -9,6 +9,9 @@ pg_root.geometry("744x623")
 pg_root.title("My first gui")
 
 def Take_input():
+    if os.path.exists('E:\Python Software\Example.xlsx'):
+        os.remove("Example.xlsx")
+        
     workbook=xl.Workbook('Example.xlsx')
     worksheet=workbook.add_worksheet()
     row=0
