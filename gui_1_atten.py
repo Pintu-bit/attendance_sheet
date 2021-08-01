@@ -48,11 +48,7 @@ def view_data():
         inpt1.insert(END,"There is no any containt availabel at now!")
         inpt1.pack()
          
-   # print(df)
-    
-    #file2=open("temp.txt","r")
-    #print(file2.readline())
-    #file2.close()
+   
 
 title_lebel=Label(text="PLEASE INPUT THE DATA ",font="comicsense 14 bold")
 inputtxt = Text(pg_root,height = 5,width = 80,bg = "light yellow",fg="black",borderwidth=3,relief=SUNKEN)
