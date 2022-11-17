@@ -62,9 +62,7 @@ def view_data():
         inpt1.pack()
     else:
         inpt1.insert(END,"There is no any content available at now!")
-        inpt1.pack()
-
-        
+        inpt1.pack()      
 title_lebel=Label(text="PLEASE INPUT THE DATA ",font="comicsense 14 bold")
 inputtxt = Text(pg_root,height = 10,width = 100,bg = "light yellow",fg="black",borderwidth=3,relief=SUNKEN)
 inpt1=Text(pg_root,height=11,width=50,bg="green",fg="white",borderwidth=3,relief=SUNKEN,padx=0)
@@ -73,7 +71,6 @@ b1 = Button(pg_root,text="Submit",width = 30,bg = "light cyan",
             command = lambda:Take_input())
 b2 = Button(pg_root, text = "Exit",width =30,bg = "light cyan",
             command = pg_root.destroy) 
-
 #Output = Text(pg_root, height = 5,width =50,bg = "lightcyan")
 b3=Button(pg_root,text="Export the excel data Sheet",width=50,bg="lightcyan",command=lambda:view_data())
 
